@@ -1,0 +1,28 @@
+body {
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.block, 
+.inline {
+  background: rgb(134, 115, 115);
+}
+.block {
+  padding: 30px;
+  margin: 50px;
+}
+
+/* ======================= */
+.block {
+  /* opacity: 1;
+  visibility: hidden; */
+  width: 400px;
+  height: 400px;
+  overflow: scroll;
+}
+.inline {}
+
+.img {}
