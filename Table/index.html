@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблицы</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <table>
+    <caption>
+      Заголовок
+    </caption>
+    <thead>
+      <tr>
+        <th>Столбец1</th>
+        <th>Столбец2</th>
+        <th>Столбец3</th>
+        <th>Столбец4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Строка1</td>
+        <td>Строка2</td>
+        <td>Строка3</td>
+        <td>Строка4</td>
+      </tr>
+      <tr>
+        <td>Строка1</td>
+        <td>Строка2</td>
+        <td rowspan="2">Строка3</td>
+      </tr>
+      <tr>
+        <td>Строка1</td>
+        <td>Строка2</td>
+        <td>Строка3</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Строка1</td>
+        <td>Строка2</td>
+        <td>Строка3</td>
+      </tr>
+      <tr>
+        <td>Строка1</td>
+        <td>Строка2</td>
+        <td>Строка3</td>
+        <td>Строка4</td>
+      </tr>
+      <tr>
+        <td>Строка1</td>
+        <td>Строка2</td>
+        <td>Строка3</td>
+        <td>Строка4</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
